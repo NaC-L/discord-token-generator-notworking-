@@ -4,6 +4,7 @@ should create token_gen.txt
 
 
 download chromedriver from https://chromedriver.chromium.org/downloads or use an alternate and change the script.
+pip install -r requirements.txt \
 To see your chrome version\
 chrome://version \
 add me G0lge᲼᲼#0791 for ideas, bugs, advice for my code or just a small talk etc.\
