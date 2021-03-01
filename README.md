@@ -4,12 +4,12 @@ should create token_gen.txt
 
 
 download chromedriver from https://chromedriver.chromium.org/downloads or use an alternate and change the script.
-To see your chrome version
+To see your chrome version \n
 chrome://version
 
 something something
 
-to do
+to do \n
 [] Proxy integration
 [] Set profile picture automatically (will use discum)
 [] Auto-mail verification via temporary mails.
