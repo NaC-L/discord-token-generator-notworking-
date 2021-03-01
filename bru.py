@@ -8,7 +8,6 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 import time
-import cfscrape
 import base64
 from selenium.webdriver.chrome.options import Options
 import pyautogui
@@ -23,7 +22,6 @@ import time
 from seleniumrequests import Chrome
 import concurrent.futures
 import ssl
-import cloudscraper
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
@@ -160,13 +158,11 @@ def Alibaran(count,captcha_key):
 			bru = a["events"][0]['properties']['client_uuid']
 			print(bru)
 			
-	mdriver = cloudscraper.create_scraper()
 	fp = betterheaders(headers,len(captcha_key),0)
 	uname = "Criminal Mastermind-" +  str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9))
 	data = "{consent:true,fingerprint: '"+fp+"',username:'"+uname+"'}"
 
 	heads = betterheaders(headers,len(captcha_key),1)
-	scraper = cfscrape.create_scraper()
 	headz = heads
 	#headz["Content-Length"] = str(len(data))
 	#req = requests.post("https://discord.com/api/v8/auth/register", data = data, headers = headz).text
