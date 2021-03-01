@@ -6,7 +6,8 @@ should create token_gen.txt
 download chromedriver from https://chromedriver.chromium.org/downloads or use an alternate and change the script.
 To see your chrome version\
 chrome://version \
-add me G0lge᲼᲼#0791 something something 
+add me G0lge᲼᲼#0791 \
+something something 
 
 to do \
 [] Proxy integration\
