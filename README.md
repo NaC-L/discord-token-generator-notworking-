@@ -6,10 +6,10 @@ should create token_gen.txt
 download chromedriver from https://chromedriver.chromium.org/downloads or use an alternate and change the script.
 To see your chrome version\
 chrome://version \
-something something \
+something something 
 
 to do \
 [] Proxy integration\
 [] Set profile picture automatically (will use discum)\
 [] Auto-mail verification via temporary mails.\
-[] Something something \
+[] Something something 
