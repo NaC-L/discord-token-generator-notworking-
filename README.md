@@ -3,7 +3,7 @@ Automatically generates discord tokens, install modules, etc, use googledriver, 
 should create token_gen.txt
 
 
-download chromedriver from https://chromedriver.chromium.org/downloads or use an alternate and change the script.
+download chromedriver from https://chromedriver.chromium.org/downloads or use an alternate and change the script. \
 pip install -r requirements.txt \
 To see your chrome version\
 chrome://version \
